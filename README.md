@@ -2,7 +2,18 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Includes :
+
+- [React 19](https://react.dev/learn/installation)
+- [Tanstack Router](https://tanstack.com/router/latest/docs/framework/react/installation)
+- [TailwindCSS v4](https://tailwindcss.com/docs/installation/using-vite)
+- [Vite](https://vite.dev/guide/)
+
+---
+
 This project uses [pnpm](https://pnpm.io/) for package management.
+
+---
 
 ## Recommended Setup
 

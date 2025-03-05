@@ -42,7 +42,7 @@ function Index() {
 				</Link>
 				<span className=''>•</span>
 				<Link
-					to='https://tailwindcss.com/docs/installation/using-vite'
+					to='https://vite.dev/guide/'
 					target='_blank'
 					className='hover:text-blue-300 hover:underline'
 				>
