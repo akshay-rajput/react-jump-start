@@ -8,7 +8,7 @@ export const Route = createRootRoute({
       className="app-container border w-full min-h-screen"
     >
       <nav className="text-gray-400 flex items-center justify-center">
-        <div className="p-4 flex gap-4 border border-dotted w-6xl max-w-6xl margin-auto">
+        <div className="p-4 flex gap-4 w-6xl max-w-6xl margin-auto">
           <Link to="/" className="[&.active]:font-bold hover:text-blue-500">
             Home
           </Link>
@@ -20,7 +20,7 @@ export const Route = createRootRoute({
           </Link>
         </div>
       </nav>
-      <hr />
+      
       <Outlet />
       <TanStackRouterDevtools />
     </main>
