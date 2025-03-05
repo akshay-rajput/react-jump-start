@@ -7,12 +7,12 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="p-2">
+    <div className="pt-36 pb-12 flex flex-col gap-6 items-center justify-center text-white">
       <div>
         <img src={RJSLogo} className="logo" alt="RJS logo" />
       </div>
 
-      <h1>React Jump Start</h1>
+      <h1 className="text-3xl font-bold">React Jump Start</h1>
 
       <div className="card">
         list of included things - tailwind v4 - react 19 - react-router v7
